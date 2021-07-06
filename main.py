@@ -55,9 +55,8 @@ def main():
 	else:
 		print("Command error")
 
-#try:
-#	main()
-#except:
-#	print("Error")
-main()
+try:
+	main()
+except:
+	print("fhide <file name> <shift> <change> close\nfhide <file name> <shift> <change> open")
 
